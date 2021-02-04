@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@600&display=swap');
+
+body {
+    background-color: antiquewhite;
+    color: black;
+    font-family: 'Georgia', Arial;
+    /* width: 0; */
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: black;
+
+    font-family: 'Lemonada', cursive;
+}
+
+h3{
+    padding-right: 10px;
+}
+
+.top-nav{
+    background-color: dimgray;
+    text-align: right;
+   padding: 10px;
+   width: 100%;
+   position: fixed;
+   top: 0;
+}
+
+.top-nav a{
+    color:white ;
+    margin-right: 20px;
+}
+
+.top-nav a:hover {
+    background-color:white;
+    color: blue;
+  }
+
+.main-intro{
+    color: black;
+    font-family: 'Libre Baskerville', serif;
+    padding: 25px 20px 25px 20px;
+    padding-left: 40px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.cgpa-form{
+    float: center;
+    display: block;
+    text-align: center;
+}
+form{
+    display:inline;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+#about_us{
+    margin-top: 30px;
+    /* margin: 20px; */
+    font-weight: 300px;
+    padding: 25px 20px 25px 20px;
+    padding-left: 40px;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 18px;
+}
+
+#contact_us{
+    margin-top: 30px;
+    /* margin: 20px; */
+    font-weight: 300px;
+    padding: 25px 20px 25px 20px;
+    padding-left: 40px;
+    padding-right: 50px;
+    text-align: justify;
+    font-size: 18px;
+}
+.outro
+{
+    background-color: dimgray;
+    text-align: center;
+    color: white;
+    padding: 3px;
+ 
+}
+input {
+    width: 30%;
+  }
+  
